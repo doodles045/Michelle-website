@@ -1,0 +1,416 @@
+html {
+
+    background-image: linear-gradient(#080846, #28b4e2);
+    height: 120%;
+
+}
+
+
+body {
+
+    width: 1600px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+
+    background-image: url(images/balloons-background.jpg);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+header {
+
+    display: flex;
+    width: 80%;
+    max-height: 280px;
+    margin: auto;
+    background-color: rgb(222, 31, 31);
+
+}
+
+.logo {
+
+    flex: relative;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+header h1 {
+
+    display: flex;
+    font-family: 'jokerman', sans-serif;
+    color: rgb(255, 255, 0);
+    padding-left: 120px;
+    padding top: 80px;
+    padding-bottom: 350px;
+    font-size: 90px;
+
+}
+
+
+
+nav {
+
+    padding-left: 160px;
+    max-width: 1290px;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.navbutton {
+
+    background-color: rgb(21, 21, 206);
+    justify-content: space-around;
+    border: 3px solid red;
+
+}
+
+.navbutton a {
+
+    color: white;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown {
+
+    display: none;
+    position: absolute;
+
+}
+
+.navbutton:hover .dropdown {
+
+    display: block;
+
+}
+
+.dropdown .button {
+
+    width: 50px;
+    background: red;
+
+}
+
+.dropdown .dropbutton a {
+
+    color: #fff;
+}
+
+.dropdown .dropbutton:hover {
+
+    background: green;
+    /* This is not working*/
+}
+
+
+main {
+    display: flex;
+    background-color: rgb(11, 170, 11);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+}
+
+section-1 {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: "Bradley Hand ITC", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+section-2 {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: "Bradley Hand ITC", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+aside {
+
+    display: flex;
+
+    /* background-color: rgb(195, 11, 11);*/
+    max-width: 550px;
+
+    color: #fff;
+
+
+
+}
+
+.reviews {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.review1 {
+
+    background-color: rgb(235, 40, 40);
+    margin-right: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "lucida handwriting", sans-serif;
+    font-size: 15px;
+}
+
+.review2 {
+
+    background-color: rgb(235, 40, 40);
+    margin-right: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "lucida handwriting", sans-serif;
+    font-size: 15px;
+}
+
+.review3 {
+
+    background-color: rgb(235, 40, 40);
+    margin-right: 40px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "lucida handwriting", sans-serif;
+    font-size: 15px;
+
+}
+
+hr {
+
+    border: 2px solid #fff;
+    max-width: 1270px;
+}
+
+footer {
+
+    display: flex;
+    width: 80%;
+    max-height: 200px;
+    margin: auto;
+    background-color: yellow;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid green;
+
+}
+
+.counter {
+
+    padding-left: 100px;
+    padding-top: 30px;
+
+}
+
+footer p {
+
+    position: relative;
+    padding-right: 120px;
+    padding-top: 20px;
+    color: blue;
+    font-weight: 1000;
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
+
+.media {
+
+    position: relative;
+    transform: translate(-50%);
+
+}
+
+li {
+
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 10px;
+    color: red;
+    border: 4px solid blue;
+    border-radius: 40%;
+    transition: .3s;
+    background-color: #fff;
+}
+
+li:hover {
+
+    color: blue;
+    border: 5px solid red;
+    transition: .3s;
+}
+
+/* 
+Start of Bio page css 
+*/
+bio {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background: rgb(11, 170, 11);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+
+bio p {
+
+    color: #fff;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 60px;
+
+
+}
+
+bio img {
+
+    max-height: 380px;
+    max-width: 490px;
+    padding-right: 20px;
+
+}
+
+h2 {
+
+    color: #fff;
+    text-align: center;
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+
+}
+
+myVideo {
+    display: flex;
+
+    width: 80%;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+    /* padding-left: 120px;*/
+
+
+}
+
+
+.btn-home {
+
+    position: relative;
+    max-height: 30px;
+    color: #fff;
+    background: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-top: 170px;
+    margin-left: 50px;
+
+
+}
+
+/* 
+Start of Form css 
+*/
+
+}
+
+
+.inputwrapper {
+
+    margin-bottom: 30px;
+
+}
+
+input[type=text],
+input[type=email],
+textarea {
+
+    padding: 12px 20px;
+    width: 50%;
+    /* 50% of the container*/
+    font-family: 'roboto', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+
+}
+
+.newline {
+
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.margin-right-a {
+
+    margin-right: 20px;
+}
+
+input [type=radio] {
+
+    margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Party Central</title>
+    <link rel="stylesheet" href="contactStyle.css">
+
+    <script src="https://kit.fontawesome.com/f547b2d5e9.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+
+</head>
+
+<div class="container">
+
+    <body>
+
+        <div>
+            <header>
+
+
+                <img src="images/clown-logo.jpg" alt="clown logo">
+
+                <p>Party Central</p>
+
+                <a class="btn-home" href="index.html">Home Page</a>
+            </header>
+        </div>
+
+        <div class="form-main">
+
+            <h1>Contact us</h1>
+            <p>Please feel free to submit any booking enquiries via the form below. </p>
+
+            <form action="mail.php" method="post">
+
+                <div class="inputwrapper">
+                    <label for="name" class="newline">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="inputwrapper">
+                    <label for="Phone" class="newline" id="phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" placeholder="00-353-8">
+                </div>
+
+                <div class="inputwrapper">
+                    <label for="email" class="newline" id="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Laura@sample.com">
+                </div>
+
+
+                <div class="inputwrapper">
+                    <!--this is a multi line text box-->
+                    <textarea name="name" id="message" cols="100" rows="8" placeholder="Booking/Enquiry"></textarea>
+                </div>
+
+
+                <div class="inputwrapper">
+                    <!--These are radio buttons-->
+
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" name="contact-preference" id="phone" value="phone">
+                    <label for="phone" class="margin-right-a">Phone</label>
+                    <input type="radio" name="contact-preference" id="email" value="email">
+                    <label for="email">Email</label>
+                </div>
+
+
+                <input type="submit" value="Submit" class="mybutton">
+
+            </form>
+            <!--end of form-->
+
+        </div>
+    </body>
+</div>
+
+</html>
